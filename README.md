@@ -34,7 +34,7 @@ The database schema includes the following tables:
 - **ResearchProject**: Details about ongoing research projects.
 - **StudentProjectParticipation**: Records of student participation in research projects.
 
-![University Database Model](universityModel.png)
+![University Database Model](university.png)
 
 ## Getting Started
 
