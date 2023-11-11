@@ -15,7 +15,7 @@ Welcome to the University Database project! This database is designed to manage 
 
 This project aims to create a comprehensive database system for a university environment. The database includes tables for students, professors, courses, enrollments, departments, assignments, degree programs, prerequisites, libraries, and more. The relationships between these entities are carefully designed to represent the complex interactions within a university ecosystem.
 
-![University Database Model](model/universityERD.png)
+![University Database Model](universityModel.png)
 
 ## Database Structure
 
