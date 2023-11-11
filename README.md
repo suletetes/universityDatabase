@@ -34,6 +34,8 @@ The database schema includes the following tables:
 - **ResearchProject**: Details about ongoing research projects.
 - **StudentProjectParticipation**: Records of student participation in research projects.
 
+![University Database Model](universityModel.png)
+
 ## Getting Started
 
 To set up the university database on your system, follow these steps:
@@ -53,15 +55,11 @@ INSERT INTO Student (FirstName, LastName, DateOfBirth, Address, Email, Major)
 VALUES
   ('John', 'Doe', '1995-05-15', '123 Main St, Cityville', 'john.doe@email.com', 'Computer Science'),
   ('Jane', 'Smith', '1998-08-22', '456 Oak St, Townsville', 'jane.smith@email.com', 'Biology');
-
+  
 -- Inserting data into the Professor table
 INSERT INTO Professor (FirstName, LastName, DateOfBirth, Address, Email, Department)
 VALUES
   ('Michael', 'Johnson', '1970-02-28', '789 Pine St, Villageton', 'michael.johnson@email.com', 'Computer Science'),
   ('Sarah', 'Miller', '1985-09-12', '101 Elm St, Hamletville', 'sarah.miller@email.com', 'Biology');
-
--- Inserting data into the Course table
-INSERT INTO Course (CourseName, Credits, Department)
-VALUES
-  ('Introduction to Computer Science', 4, 'Computer Science'),
-  ('Biology 101', 3, 'Biology');
+  
+-- ... (Additional INSERT statements for other tables)
